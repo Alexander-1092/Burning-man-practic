@@ -1,0 +1,202 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Anton', sans-serif;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+
+ul, li {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;  
+}
+
+.header {
+    background: url(../img/header-bg.png) no-repeat center top / cover;
+    padding-top: 57px;
+}
+
+.logo {
+    margin-right: 69px;
+}
+
+header a {
+    color: #fff;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+}
+
+.menu li {
+    margin-right: 40px;
+}
+
+.tel {
+    font-size: 17px;
+    text-decoration: none;
+    margin-left: auto;
+    letter-spacing: 0.1em;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.offer {
+    margin-top: 216px;
+    padding-bottom: 322px;
+}
+
+.title_two {
+    font-size: 30px;
+    color: #fff;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.title_one {
+    font-size: 100px;
+    color: #fff;
+    letter-spacing: 0.1em;
+    line-height: 151px;
+    text-transform: uppercase;
+}
+
+.btn {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    letter-spacing: 0.1em;
+    border: 1px solid #fff;
+    width: 238px;
+    text-align: center;
+    padding: 17px 47px;
+}
+
+.btn:hover {
+    background: rgb(68, 136, 192);
+}
+
+.about {
+    margin-top: 113px;
+}
+
+.about h2 {
+    font-size: 50px;
+}
+
+.text {
+    display: flex;
+    margin-top: 74px;
+    justify-content: space-between;
+    width: 1164px;
+}
+
+.text h3 {
+    display: block;
+    font-size: 25px;
+}
+
+.text p {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    width: 564px;
+    line-height: 26px;
+    text-align: justify;
+}
+
+.picture {
+    margin-top: 84px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    margin-top: 114px;
+    margin-bottom: 80px;
+}
+
+.credit {
+    display: flex;
+}
+
+.credit p {
+    margin-right: 67px;
+    font-family: "Open Sans", sans-serif;
+}
+
+@media screen and (max-width: 1200px){  
+    .container {
+        width: 1140px;
+    }
+}
+
+
+@media screen and (max-width: 1199px){  
+    .container {
+        width: 960px;
+    }
+   
+ 
+    .text {
+        width: 100%;
+
+    }
+
+
+    .text_two p {
+        width: 86%;
+    }
+
+    .text_one p {
+        width: 90%;
+    }
+
+    .picture img {
+        width: 40%;
+    }
+
+}
+
+@media screen and (max-width: 991px){  
+    .container {
+        width:720px;
+    }
+}
+
+@media screen and (max-width: 767px){  
+    .container {
+        width: 540px;
+    }
+}
+
+@media screen and (max-width: 575px){  
+    .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+}
